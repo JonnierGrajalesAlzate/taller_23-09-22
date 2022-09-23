@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("https://www.viajarafrancia.com/wp-content/uploads/2015/05/98899__la-tour-eiffel-paris-france-eiffel-tower-paris-france-the-sky-leaves-green-summer_p.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x:hidden;
+
+}
+
+nav .logo {
+    list-style-type:none; /* Quitar lista */
+}
+  
+.logo {
+    justify-content: space-between;
+    display:flex;
+    width:98%;
+    position:relative;
+}
+
+.logo li a {
+    font-size: 40px;
+    font-family: 'Bungee Spice', cursive;
+    text-shadow: 5px 2px blue, 7px -2px white;
+    justify-content: flex-start;
+    padding:20px;
+    text-decoration:none;
+}
+
+  
+.logo li {
+    justify-content: flex-end;
+    padding:20px;
+    text-decoration:none;
+}
+
+.logo img{
+    width: 120px;
+    height: 90px;
+    border: 4px solid black;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    background: 100% center / cover no-repeat;
+    min-height: 100vh;
+    width: 100%;
+  }
+ 
+    
+
+
+  
+.france-inf{
+    
+    margin: 100px;
+    width: 40%;
+    height: 500px;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.contenido{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.france-inf1{
+    background-color: rgba(220, 220, 220, 0.797);
+    border: 3px solid black;
+}
+ 
+.france-inf2{
+    background-color: rgba(220, 220, 220, 0.797);
+    margin-top: 20%;
+    border: 3px solid black;
+}
+
+
+
+
+
+.derecha{
+    margin: 20px;
+    width: 40%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    padding: 2rem;
+
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagenes{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+hr{
+    background-color: black;
+    height: 3px;
+}
+
+.france-inf3{
+    border: 3px solid black;
+    background-color: rgba(220, 220, 220, 0.797);
+    margin-top: 20%;
+}
+
+.titulo2{
+    background-color: rgba(255, 255, 255, 0.597);
+    font: 40px 'Open Sans';
+    text-align: center;
+    text-shadow:  2px 2px 12px rgb(255, 11, 11), -6px -6px 12px rgb(0, 90, 102);
+}
